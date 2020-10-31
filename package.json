@@ -1,0 +1,22 @@
+{
+  "name": "directory",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "node lib/downloadSpecs.js && next build && next export",
+    "start": "next start",
+    "test": "echo OK"
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.16",
+    "classnames": "^2.2.6",
+    "mobx": "^6.0.1",
+    "next": "9.5.4",
+    "next-images": "^1.6.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "redoc": "^2.0.0-rc.40",
+    "styled-components": "^5.2.0"
+  }
+}

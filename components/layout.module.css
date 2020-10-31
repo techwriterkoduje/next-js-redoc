@@ -1,0 +1,76 @@
+.wrapper {
+  --header-height: 64px;
+  --main-height: calc(100vh - var(--header-height));
+}
+
+.main {
+  min-height: var(--main-height);
+}
+
+.container {
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
+.header {
+  background-color: var(--brand-dark);
+  padding: 16px;
+  min-height: var(--header-height);
+}
+
+.logoTitle {
+  font-family: 'Avenir', sans-serif;
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+  padding-left: 16px;
+}
+
+.logoTitle a {
+  color: inherit;
+}
+
+.downloadLink {
+  float: right;
+  padding: 12px;
+  color: white;
+  background-color: green;
+  border-radius: 3px;
+}
+
+.downloadLink:hover {
+  color: green;
+  background-color: white;
+}
+
+.downloadLink:active {
+  color: white;
+  background-color: green;
+}
+
+.footer {
+  background-color: var(--brand-dark);
+  color: white;
+  padding: 16px;
+}
+
+.footer > div {
+  padding: 4px 0;
+  font-size: 14px;
+}
+
+.footer > div:first-child {
+  font-weight: 600;
+}
+
+.footer > div > a {
+  color: inherit;
+}
+
+.footer > div > a:hover {
+  color: inherit;
+  text-decoration: underline;
+}

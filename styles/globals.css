@@ -1,0 +1,46 @@
+html,
+body {
+  --brand-dark: #4b4b4b;
+  --brand-blue: #00739d;
+  --brand-blue-hover: #006083;
+  --brand-blue-active: #004e6a;
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  color: var(--brand-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--brand-blue-hover);
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.specError {
+  max-width: 1400px;
+  margin: auto;
+  padding-top: 32px;
+  overflow-x: scroll;
+}
+
+.specError pre {
+  font-size: large;
+  background-color: darkgray;
+  border: 3px solid gray;
+  padding: 32px;
+}
+
+div.menu-content {
+  background-color: #253236;
+}
+
+div.menu-content * {
+  display: none;
+}

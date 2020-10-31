@@ -1,0 +1,41 @@
+.links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  column-gap: 8px;
+  row-gap: 8px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 64px 0;
+}
+
+.specLink {
+  display: block;
+  padding: 32px 16px;
+  border-radius: 8px;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.specLink:hover {
+  border: 2px solid var(--brand-dark);
+  color: inherit;
+}
+
+.groupHeader {
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.isSystemApi {
+  display: inline-block;
+  font-size: 0.8rem;
+  background-color: orange;
+  border-radius: 6px;
+  padding: 3px 6px;
+  margin-left: 12px;
+}
